@@ -1,0 +1,82 @@
+html { height: 100%;                       /* растягиваем по высоте 100%*/
+	  width: 100%;
+}
+body {                                       /* установка параметров страницы*/
+    height: 100%;                                        /*  ширина 100%*/
+    width: 100%;
+	font-family: sans-serif,courier,arial;
+	font-size: 13px;
+}
+input[type="text"] {
+   border: 1px solid #cccccc;
+   margin: 2px;
+}
+input[type="text"]:focus {
+  color: #000000;
+  border: 1px solid #000000
+}
+       
+a {                                            /* установка параметров ссылок*/
+   color: blue;                                /* цвет ссылки*/
+   outline: none;
+   text-decoration: underline;                  /* подчеркивание ссылки снизу */
+}
+a:hover {                            /* параметры ссылок при наведении курсора */
+	text-decoration: none;     /* подчеркивание отменить при наведении курсора*/
+}
+
+
+img {
+	border: none ;          /* обнуляем бордеры (обводку) для всех изображений*/
+}
+
+
+#wrapper {
+    position: absolute;
+/*	min-width:  800px;                  /* минимальный размер ширины каркаса сайта*/
+/*	min-height: 600px;                  /* минимальный размер высоты каркаса сайта*/	
+	height: 100%;
+	width: 100%; 
+	margin: -21px -8px -21px -8px;
+/*	background-color: #FFFFCC;  */
+}
+
+#header_left {
+    position: absolute;
+    height: 150px;                    
+	width: 200px;
+;
+/*    background-color: #003333;*/
+}
+#header_right {
+    position: absolute;
+/*    top: 0px;*/
+    left: 200px;
+	height: 150px;                         
+	width: 100%;
+	background-color: #CCCCFF;
+}
+#material_input{
+	position: relative;
+	top: 20px;
+	left: 10px;
+	width: 500px;
+}
+
+
+
+#menu {
+    position: absolute;
+    top: 150px;
+	height: 100%;                         
+	width: 200px;
+	background-color: #CCCCFF;  
+}
+#main_window {
+    position: absolute;
+    top: 150px;
+	height: 100%; 
+	left: 200px;
+	width: 100%;
+/*	background-color: #006699;  */
+}
